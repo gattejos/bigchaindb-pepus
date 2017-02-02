@@ -1,0 +1,48 @@
+2017-01-15T21:48:05.701638163 0.017839s warn: Parent directory of log file (/etc/rethinkdb/2/log_file) could not be synced. (Invalid argument)
+2017-01-15T21:48:05.703462204 0.019662s notice: Recursively removing directory /etc/rethinkdb/2/tmp
+2017-01-15T21:48:05.705985720 0.022186s warn: Failed to sync parent directory of "/etc/rethinkdb/2/tmp" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:48:05.712302854 0.028506s notice: Initializing directory /etc/rethinkdb/2
+2017-01-15T21:48:05.713286246 0.029486s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2017-01-15T21:48:05.717046434 0.033249s notice: Running on Linux 4.4.12-boot2docker x86_64
+2017-01-15T21:48:05.718533370 0.034733s notice: Loading data from directory /etc/rethinkdb/2
+2017-01-15T21:48:05.723045528 0.039245s warn: Failed to sync parent directory of "/etc/rethinkdb/2/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:48:05.729583223 0.045784s warn: Failed to sync parent directory of "/etc/rethinkdb/2/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:48:05.735471214 0.051672s warn: Failed to sync parent directory of "/etc/rethinkdb/2/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:48:05.741571775 0.057774s info: Automatically using cache size of 100 MB
+2017-01-15T21:48:05.742119669 0.058319s warn: Cache size is very low and may impact performance.
+2017-01-15T21:48:05.744544071 0.060744s notice: Listening for intracluster connections on port 29016
+2017-01-15T21:48:05.746027570 0.062227s info: Attempting connection to 1 peer...
+2017-01-15T21:48:05.756131209 0.072332s notice: Connected to server "f6857bd2d322_odt" 9aea96b0-34e2-4071-97b6-7da779d08e86
+2017-01-15T21:48:05.760749240 0.076949s notice: Listening for client driver connections on port 28016
+2017-01-15T21:48:05.764969827 0.081170s notice: Listening for administrative HTTP connections on port 8081
+2017-01-15T21:48:05.764973972 0.081174s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-15T21:48:05.764976473 0.081176s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-15T21:48:05.764979020 0.081179s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-15T21:48:05.764981296 0.081181s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-15T21:48:05.764983552 0.081183s notice: Server ready, "913a542a34cb_6q9" c8d0829f-463d-412b-a5af-7f10f025751f
+2017-01-15T21:49:12.856408940 67.172609s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-01-15T21:49:12.856481607 67.172681s notice: Shutting down client connections...
+2017-01-15T21:49:12.857583645 67.173783s notice: All client connections closed.
+2017-01-15T21:49:12.857587006 67.173787s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-15T21:49:12.857966291 67.174166s notice: Storage engine shut down.
+2017-01-15T21:49:12.860883294 67.177083s notice: Disconnected from server "f6857bd2d322_odt" 9aea96b0-34e2-4071-97b6-7da779d08e86
+2017-01-15T21:49:36.713185350 0.019992s warn: Parent directory of log file (/etc/rethinkdb/2/log_file) could not be synced. (Invalid argument)
+2017-01-15T21:49:36.719063135 0.025872s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2017-01-15T21:49:36.723303855 0.030112s notice: Running on Linux 4.4.12-boot2docker x86_64
+2017-01-15T21:49:36.724468336 0.031274s notice: Loading data from directory /etc/rethinkdb/2
+2017-01-15T21:49:36.728534453 0.035340s warn: Failed to sync parent directory of "/etc/rethinkdb/2/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:49:36.735510572 0.042318s info: Automatically using cache size of 100 MB
+2017-01-15T21:49:36.735987502 0.042793s warn: Cache size is very low and may impact performance.
+2017-01-15T21:49:36.737422158 0.044228s notice: Listening for intracluster connections on port 29016
+2017-01-15T21:49:36.740218999 0.047025s notice: Listening for client driver connections on port 28016
+2017-01-15T21:49:36.742440999 0.049247s notice: Listening for administrative HTTP connections on port 8081
+2017-01-15T21:49:36.742444624 0.049250s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-15T21:49:36.742449370 0.049255s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-15T21:49:36.742451742 0.049257s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-15T21:49:36.742455590 0.049261s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-15T21:49:36.742459268 0.049265s notice: Server ready, "913a542a34cb_6q9" c8d0829f-463d-412b-a5af-7f10f025751f
+2017-01-15T21:50:02.018727279 25.325533s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-01-15T21:50:02.018830091 25.325636s notice: Shutting down client connections...
+2017-01-15T21:50:02.020225489 25.327031s notice: All client connections closed.
+2017-01-15T21:50:02.020229672 25.327035s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-15T21:50:02.021678306 25.328484s notice: Storage engine shut down.

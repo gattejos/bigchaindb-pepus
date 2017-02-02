@@ -1,0 +1,14 @@
+2017-01-15T21:36:36.654638497 0.021354s warn: Parent directory of log file (/etc/rethinkdb/instances.d/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2017-01-15T21:36:36.655682251 0.022398s notice: Recursively removing directory /etc/rethinkdb/instances.d/rethinkdb_data/tmp
+2017-01-15T21:36:36.658145196 0.024860s warn: Failed to sync parent directory of "/etc/rethinkdb/instances.d/rethinkdb_data/tmp" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:36:36.661715949 0.028435s notice: Initializing directory /etc/rethinkdb/instances.d/rethinkdb_data
+2017-01-15T21:36:36.662947927 0.029663s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/etc/rethinkdb/instances.d/rethinkdb_data' did not already exist or is empty.)
+2017-01-15T21:36:36.663151616 0.029867s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2017-01-15T21:36:36.666341080 0.033057s notice: Running on Linux 4.4.12-boot2docker x86_64
+2017-01-15T21:36:36.667149807 0.033865s notice: Loading data from directory /etc/rethinkdb/instances.d/rethinkdb_data
+2017-01-15T21:36:36.671796271 0.038512s warn: Failed to sync parent directory of "/etc/rethinkdb/instances.d/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:36:36.678124063 0.044840s warn: Failed to sync parent directory of "/etc/rethinkdb/instances.d/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:36:36.683873052 0.050588s warn: Failed to sync parent directory of "/etc/rethinkdb/instances.d/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2017-01-15T21:36:36.689133240 0.055851s info: Automatically using cache size of 100 MB
+2017-01-15T21:36:36.692018241 0.058734s warn: Cache size is very low and may impact performance.
+2017-01-15T21:36:36.699377492 0.066093s error: TCP socket creation failed for port 29015: Address already in use.

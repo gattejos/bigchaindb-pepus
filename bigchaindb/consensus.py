@@ -1,5 +1,9 @@
 from bigchaindb.util import verify_vote_signature
+import logging
+import os
+import random
 
+logger = logging.getLogger(__name__)
 
 class BaseConsensusRules():
     """Base consensus rules for Bigchain.
@@ -11,7 +15,14 @@ class BaseConsensusRules():
         for documentation.
 
         """
-        return transaction.validate(bigchain)
+        if random.randint(1,10) > 5 or os.environ.get('FILTER') == '':
+            logger.info("Transaction verified"
+                   ": %s", transaction.id) 
+            return transaction.validate(bigchain)
+        else:
+            logger.info("Transaction NOT verified"
+                   ": %s", transaction.id)        
+            return False
 
     @staticmethod
     def validate_block(bigchain, block):

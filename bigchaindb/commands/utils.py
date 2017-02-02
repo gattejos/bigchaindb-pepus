@@ -23,7 +23,7 @@ def start_rethinkdb():
             RethinkDB cannot be started.
     """
 
-    proc = subprocess.Popen(['rethinkdb', '--bind', 'all'],
+    proc = subprocess.Popen(['rethinkdb', '--bind', 'all', '--config-file', '/etc/rethinkdb/default.conf'],
                             stdout=subprocess.PIPE,
                             stderr=subprocess.STDOUT,
                             universal_newlines=True)
